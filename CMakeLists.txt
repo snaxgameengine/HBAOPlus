@@ -54,5 +54,5 @@ add_custom_command(
     POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy
         $<TARGET_FILE:HBAOPlus>
-        ${SNAX_BUILD_DIR}/3rd/
+        ${SNAX_BUILD_3RD_DIR}
 )
